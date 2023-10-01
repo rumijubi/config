@@ -63,11 +63,11 @@ require 'mp.options'
 
 local options = {
     auto = false,
-    auto_delay = 0.1,
-    detect_limit = "25/255",
-    detect_round = 2,
-    detect_min_ratio = 0.6,
-    detect_seconds = 0.1
+    auto_delay = 2,
+    detect_limit = "20/255",
+    detect_round = 3,
+    detect_min_ratio = 0.7,
+    detect_seconds = .1
 }
 read_options(options)
 
